@@ -1,0 +1,215 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/fondo4.jpg);
+    padding: 20px 10px;
+  }
+  
+.logo .imagen {
+    margin: 20px 10px;
+}
+  
+  /* Sección Registro de Productos */
+  .section1 {
+    background-color: #0cbccc;
+    padding-bottom: 20px;
+  }
+
+  .section5{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .descripcionProductos p{
+    font-size: 25px;
+  }
+
+p{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el contenido */
+.indicaciones {
+    background-color:#444;
+    padding: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.indicaciones h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.indicaciones h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #0cbccc;
+    margin-bottom: 10px;
+}
+
+.indicaciones p, .indicaciones ol, .indicaciones ul, .indicaciones li{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color:white;
+}
+
+
+/* Estilos para la lista de productos */
+.ejemploOpciones img {
+    display: block;
+    margin-top: 10px;
+}
+
+.redireccionRegistro {
+    text-align: center;
+}
+
+.redireccionRegistro button {
+    padding: 10px 20px;
+    background-color: #0cbccc; /* Fondo turquesa */
+    border: none;
+    border-radius: 5px;
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.redireccionRegistro button:hover {
+    background-color: #099ea3; /* Fondo turquesa más oscuro al pasar el ratón */
+}
+
+/* Estilos para el pie de página */
+.pie-pagina {
+    background-color:#0cbccc;
+    color: black;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo adicional para el botón de paginación */
+#paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none; /* Ocultar inicialmente */
+}
+
+#paginacion button {
+    padding: 10px 20px;
+    background-color: #0cbccc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#paginacion button:hover {
+    background-color: #099ea3;
+}
+
+#paginacion span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilos para la lista de productos */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: black; /* Color de fondo gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.product-card p{
+    margin: 0%;
+    font-size: 20px;
+}
+
+.imgProductos {
+    max-width: 350px;
+    height: auto;
+    
+}
+
+.detallesProductos {
+    margin: 5px 0;
+}
+
+.pesos {
+    font-weight: bold;
+}
+
+.product-card {
+    margin: 10px; /* Margen entre los productos */
+    text-align: center;  
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.contenedorTarjetas {
+    display: flex;
+    background-color: black; /* Fondo negro */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 30px auto; /* Margen superior e inferior */
+    width: fit-content; /* Ajustar el tamaño al contenido */
+    max-width: 100%; /* Asegurar que no exceda el ancho del contenedor padre */
+    color: white; /* Color de texto blanco para contraste */
+}
+
+.ejemploOpciones p{
+   font-size: 20px;
+   justify-content: center;
+}
+.ejemploOpciones{
+    justify-content: center;
+}
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>appGym</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12+Charted&family=Jacquard+24&family=Jersey+20&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleIndex.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="section1">
+        <div class="logo">
+            <div class="imagen">
+                <img src="img/logo.jpg" width="350" height="100" alt="Body Nutrition" id="logo">
+            </div>  
+        </div>
+    </section>
+    <section class="section2">
+        <div class="contenedorFormulario">
+            <div class="formulario">
+                <h2 id="formulario"> REGISTRO DE PRODUCTO</h2>
+            </div>
+            <form id="registroProductoForm">
+                <div class="nombreProducto">
+                    <p id="input">NOMBRE DEL PRODUCTO</p>
+                    <input id="nombreProducto" type="text"  required>
+                    <p id="input">SELECTOR DE CATEGORIAS</p>
+                    <select id="categorias" required>
+                        <option value="Ropa deportiva">Ropa deportiva</option>
+                        <option value="Mancuernas">Mancuernas</option>
+                        <option value="Caminadoras">Caminadoras</option>
+                        <option value="Equipamiento para deportes individuales">Equipamiento para deportes individuales</option>
+                        <option value="Suplementos">Suplementos</option>
+                        <option value="Accesorios">Accesorios</option>
+                    </select>
+                    <p id="input">Selector de imagen</p>
+                    <select id="imagenProducto" required>
+                        <option value="img/camisa manga sisa void azul.jpg">camisa manga sisa void azul</option>
+                        <option value="img/Arnés Tobillo  Nylon Casero.jpg">Arnés Tobillo  Nylon Casero</option>
+                        <option value="img/Arnés Tobillo Nylon Profesional.jpg">Arnés Tobillo Nylon Profesional</option>
+                        <option value="img/Banda Caminadora Arles.jpg">Banda Caminadora Arles</option>
+                        <option value="img/Banda Trotadora Mets.jpg">Banda Trotadora Mets</option>
+                        <option value="img/Bicicleta Air Bike Darwing.jpg">Bicicleta Air Bike Darwing</option>
+                        <option value="img/Bicicleta Spinning Ferrara.jpg">Bicicleta Spinning Ferrara</option>
+                        <option value="img/Bicicleta Spinning Genoa Negro Azul.jpg">Bicicleta Spinning Genoa Negro Azul</option>
+                        <option value="img/Bicicleta Spinning Magnética Genoa 2.0.jpg">Bicicleta Spinning Magnética Genoa 2.0</option>
+                        <option value="img/Bicicleta Spinning Monza Blanca.jpg">Bicicleta Spinning Monza Blanca</option>
+                        <option value="img/Bicicleta Spinning Turín.jpg">Bicicleta Spinning Turín</option>
+                        <option value="img/Bicicleta Spinning Urbino.jpg">Bicicleta Spinning Urbino</option>
+                        <option value="img/Bicicleta Spinning Vicenza Negro Roja.jpg">Producto 13</option>
+                        <option value="img/Boxer Short Element Navy.jpg">Boxer Short Element Navy</option>
+                        <option value="img/Boxer Short Element Negro.jpg">Boxer Short Element Negro</option>
+                        <option value="img/Camisa Manga Sisa Void Azul.jpg">Camisa Manga Sisa Void Azul</option>
+                        <option value="img/Camiseta Manga Corta Apex Blanco.jpg">Camiseta Manga Corta Apex Blanco</option>
+                        <option value="img/Camiseta Manga Corta br Hardy Humo.jpg">Camiseta Manga Corta br Hardy Humo</option>
+                        <option value="img/Camiseta Manga Corta Hardy Marfil.jpg">Camiseta Manga Corta Hardy Marfil</option>
+                        <option value="img/Camiseta Manga Corta Rout  Humo Negro.jpg">Producto 20</option>
+                        <option value="img/producto21.jpg">Camiseta Manga Corta Rout  Humo Negro</option>
+                        <option value="img/Camiseta Manga Corta Rout  Vino.jpg">Camiseta Manga Corta Rout  Vino</option>
+                        <option value="img/Camiseta Manga Corta Rout Azul.jpg">Camiseta Manga Corta Rout Azul</option>
+                        <option value="img/Camiseta Manga Corta Rout Vino.jpg">Camiseta Manga Corta Rout Vino</option>
+                        <option value="img/Camiseta Manga Larga br Shelter Negro.jpg">Camiseta Manga Larga br Shelter Negro</option>
+                        <option value="img/Camiseta Manga Larga Shelter Gris.jpg">Camiseta Manga Larga Shelter Gris</option>
+                        <option value="img/Camiseta Manga Larga Summit Gris.jpg">Camiseta Manga Larga Summit Gris</option>
+                        <option value="img/Chaleco de Pesas 10KG.jpg">Chaleco de Pesas 10KG</option>
+                        <option value="img/Cinturón con Cadena br para Discos.jpg">Cinturón con Cadena br para Discos</option>
+                        <option value="img/Elíptica con Ventilador  Volante Plástica.jpg">Elíptica con Ventilador  Volante Plástica</option>
+                        <option value="img/Elíptica Magnética Sole E35.jpg">Elíptica Magnética Sole E35</option>
+                        <option value="img/Elíptica Multifuncional con Volante en Fibra.jpg">Elíptica Multifuncional con Volante en Fibra</option>
+                        <option value="img/Faja Cinturilla  en Neopreno.jpg">Faja Cinturilla  en Neopreno</option>
+                        <option value="img/Guantes de Gimnasio Negro Morado.jpg">Guantes de Gimnasio Negro Morado</option>
+                        <option value="img/Guantes de Gimnasio Pull Up.jpg">Guantes de Gimnasio Pull Up</option>
+                        <option value="img/Hand Grip Ajustable.jpg">Hand Grip Ajustable</option>
+                        <option value="img/Mancuerna en Neopreno.jpg">Mancuerna en Neopreno</option>
+                        <option value="img/Mancuerna Encauchetada.jpg">Mancuerna Encauchetada</option>
+                        <option value="img/Mancuerna Hexagonal en Neopreno.jpg">Mancuerna Hexagonal en Neopreno</option>
+                        <option value="img/Máscara de Simulación brde Altura Estándar.jpg">Máscara de Simulación brde Altura Estándar</option>
+                        <option value="img/Pantaloneta Motion Azul Navy.jpg">Pantaloneta Motion Azul Navy</option>
+                        <option value="img/Pantaloneta Motion Negro.jpg">Pantaloneta Motion Negro</option>
+                        <option value="img/Protector de Hombro.jpg">Protector de Hombro</option>
+                        <option value="img/Protector de Mano para Gym en Cuero.jpg">Protector de Mano para Gym en Cuero</option>
+                        <option value="img/Protector de Mano para Gym.jpg"> Protector de Mano para Gym</option>
+                        <option value="img/Rack para Mancuernas Rusas.jpg">Rack para Mancuernas Rusas</option>
+                        <option value="img/Protector de Manos.jpg">Protector de Manos</option>
+                        <option value="img/Recumbent Parma-M.jpg">Recumbent Parma-M</option>
+                        <option value="img/Rodilleras.jpg">Rodilleras</option>
+                        <option value="img/why proein.jpg">Why Protein</option>
+                    </select>
+                    <p id="input">CODIGO DE PRODUCTO</p>
+                    <input id="codigoProducto" type="text" required>
+                    <p id="input">PRECIO DEL PRODUCTO</p>
+                    <input id="precioProducto" type="number" min="0" required>
+                    <p id="codigoProducto" >MARCA</p>
+                    <input id="marca" type="text" maxlength="20" required>
+                    <p id="input">PROVEEDOR</p>
+                    <select id="proveedor" required>
+                        <option value="industrias Fitness">Industrias Fitness</option>
+                        <option value="Sportfitness">Sportfitness</option>
+                        <option value="Nike">Nike</option>
+                        <option value="Puma">Puma</option>
+                        <option value="Adidas">Adidas</option>
+                        <option value="Megaplex">Megaplex Stars</option>
+                    </select>
+                </div>
+                <div class="contenedor-botones">
+                    <button id="boton1" type="submit">Registrar</button>
+                    <button id="boton2" type="reset">Refrescar</button>
+                </div>
+            </form>
+        </div> 
+    </section>
+    <section class="section3"> 
+        <h2 id="marcas"> MARCAS ASOCIADAS</h2>
+        <img id="img1" src="img/Adidas.jpg" alt="adidas">
+        <img id="img2" src="img/nike.jpg" alt="nike" width="20%" height="20%">
+        <img id="img3" src="img/puma.png" alt="puma">
+        <img id="img4" src="img/jordan.jpg" alt="jordan">
+        <img id="img5" src="img/under-armour.jpg" alt="under armour">
+    </section>
+    <footer class="pie-pagina">
+        <p>© 2024 FIT-BODY-PRO-IMPEMENTACION-DEPORTIVA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

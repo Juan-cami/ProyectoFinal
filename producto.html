@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12+Charted&family=Jacquard+24&family=Jersey+20&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    
+    <section class="section4">
+        <div class="logo">
+            <div class="imagen">
+                <img src="img/logo.jpg" width="350" height="100" alt="Body Nutrition" id="logo" data-height-percentage="72" data-actual-width="500" data-actual-height="179">
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Registrar un nuevo producto</a></li>
+            <li><a href="filtros.html">Buscar un producto en la base de datos</a></li>
+        </ul>
+    </nav>
+
+    <section class="section5">
+        <div class="descripcionProductos"> 
+            <p id="descripcion">
+                EXPLORA el mundo del deporte con nuestra amplia selección de implementos deportivos, desde zapatillas de running de última generación hasta raquetas de tenis de alto rendimiento, en nuestra tienda encontrarás todo lo que necesitas para llevar tu rendimiento al siguiente nivel. Con productos de las mejores marcas y la última tecnología, estamos comprometidos a ayudarte a alcanzar tus metas deportivas y disfrutar al máximo de tu pasión por el deporte. Bienvenido a tu destino número uno para equipamiento deportivo de calidad.
+            </p>
+        </div>
+    </section>
+
+    <section class="section6">
+        <h1>Lista de Productos</h1>
+        <div id="productList" class="product-container"></div>
+    </section>
+
+    <div class="paginacion">
+        <button id="paginaAnt" disabled>Página Anterior</button>
+        <p id="pageIndicator"></p>
+        <button id="nextPage" disabled>Página Siguiente</button>
+        <button id="deleteButton">Eliminar</button>
+    </div>
+    <footer class="pie-pagina">
+        <p>© 2024 FIT-BODY-PRO-IMPEMENTACION-DEPORTIVA. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

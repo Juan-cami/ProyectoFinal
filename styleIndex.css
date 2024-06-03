@@ -1,0 +1,166 @@
+* {
+    margin: 0; /* Establece el margen exterior de todos los elementos en 0 */
+    padding: 0; /* Establece el relleno interior de todos los elementos en 0 */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total del elemento */
+    background-color: black; /* Establece el color de fondo para todos los elementos en negro */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color: white;
+    text-align: center;
+}
+
+/* Sección Logo */
+.logo {
+    display: flex;   /*flexbox*/
+    align-items: center;
+    text-align: center;
+    background-image: url(img/fondo4.jpg);
+    padding: 20px 10px;
+}
+
+.logo .imagen {
+    margin: 20px 10px;
+}
+
+/* Sección Registro de Productos */
+.section1 {
+    background-color: #0cbccc;
+    padding-bottom: 20px;
+}
+
+.contenedorFormulario {
+    border: 1px solid #ccc;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    padding: 20px;
+    background: rgba(1, 1, 1, 0.7);
+}
+
+.formulario {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nombreProducto input,
+.nombreProducto select {
+    background-color: white;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+}
+
+.nombreProducto p {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+    border: none;
+    color: black;
+    font-weight: bold;  /*aplica negrita al texto*/
+}
+
+/* Sección Marcas Asociadas */
+.section3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section3 img {
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+}
+
+/* Botones y enlaces */
+#button-vistas {
+    width: 200px;
+    margin: 20px auto;
+    display: block;    /*hace que elemento se comporte como un  bloque,sen extiende a lo largo de toda la anchura de su contenedor principal, ocupando todo el espacio horizontal disponible.*/
+
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+/* Contenedores y flexbox */
+.contenedor {
+    width: 100%;
+}
+
+.product-card {
+    margin: 10px; /* Margen entre los productos */
+    text-align: center;
+    border: 5px solid  #0cbccc;
+    background-color: white;
+    color: black;
+}
+
+.imgProductos {
+    margin: 0;
+    border: 5px solid  #0cbccc;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    color: white;
+    margin-top: 20px; /* Márgen superior de 10px */
+    margin-right: 20px; /* Márgen derecho de 20px */
+    margin-left: 40px; /* Márgen izquierdo de 40px */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.pesos {
+    margin: 0;
+    color: gray;
+    text-transform: none;
+}
+
+.detallesProductos {
+    margin: 0;
+    text-transform: none;
+}
+
+#deleteButton {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section2 {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+  }
+
+option{
+    background-color: white;
+}

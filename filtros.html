@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleFiltros.css">
+    <title>Buscar Productos</title>
+</head>
+<body>
+
+    <section class="section4">
+        <div class="logo">
+            <div class="imagen">
+                <img src="img/logo.jpg" width="350" height="100" alt="Body Nutrition" id="logo" data-height-percentage="72" data-actual-width="500" data-actual-height="179">
+            </div>
+        </div>
+    </section>
+
+
+    <form id="searchForm">
+        <h1>Buscador de productos</h1>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio"><br><br>
+        
+        <label for="categoria">Categoría:</label>
+        <input type="text" id="categoria" name="categoria"><br><br>
+        
+        <button type="submit">Buscar</button>
+        <button type="button" onclick="limpiarCampos()">Limpiar</button>
+        <button onclick="window.location.href='producto.html'" > Regresar </button>
+
+
+    </form>
+
+    <div id="productList" class="product-container"></div>
+
+    <div class="contenedorPaginacion">
+        <div id="paginacion">
+            <button id="prevPage">Anterior</button>
+            <span id="currentPage">Página 1</span>
+            <button id="nextPage">Siguiente</button>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="filtros.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
